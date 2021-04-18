@@ -1,0 +1,24 @@
+MariaDB [group14]> Select * From Users;
++--------+------------+--------------------------------------------------------------+----------+
+| userID | userName   | hashed_password                                              | userType |
++--------+------------+--------------------------------------------------------------+----------+
+|      1 | student1   | $2y$10$YzRkMmZmZjlkYWQxYmY1ZOdb6MmhrdIN6/cywIjyyok9pJrLPw95. | S        |
+|      2 | student2   | $2y$10$NmVhNDM0MzM5Yjg5ZjA4M.UobG0q69AzzdzmGEPi1oQ82MEWRdy1i | S        |
+|      3 | instructor | $2y$10$MzY0YzViZWViYzRkN2I3M./0KjcKUExZf/ZFdZ5U2oGqvw.CCjbi2 | I        |
+|      4 | student3   | $2y$10$N2M5NjA0NjZlY2EwMzY2N.Dylm0kJ2uDBRUJUI73tq26l1yAJZLn2 | S        |
++--------+------------+--------------------------------------------------------------+----------+
+4 rows in set (0.000 sec)
+
+MariaDB [group14]> notee;
+MariaDB [group14]> Select * From Users;
++--------+-------------+--------------------------------------------------------------+----------+
+| userID | userName    | hashed_password                                              | userType |
++--------+-------------+--------------------------------------------------------------+----------+
+|      1 | student1    | $2y$10$YzRkMmZmZjlkYWQxYmY1ZOdb6MmhrdIN6/cywIjyyok9pJrLPw95. | S        |
+|      2 | student2    | $2y$10$NmVhNDM0MzM5Yjg5ZjA4M.UobG0q69AzzdzmGEPi1oQ82MEWRdy1i | S        |
+|      3 | instructor  | $2y$10$MzY0YzViZWViYzRkN2I3M./0KjcKUExZf/ZFdZ5U2oGqvw.CCjbi2 | I        |
+|      4 | instructor2 | $2y$10$YWYzNmFjNGI2MWE2YjY1O.EZlEzEWUDdzQbZ5ULdyEIyQHxn7cS8S | I        |
++--------+-------------+--------------------------------------------------------------+----------+
+4 rows in set (0.000 sec)
+
+MariaDB [group14]> notee;
